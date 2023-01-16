@@ -13,9 +13,6 @@ import br.com.domain.repository.UsuarioRepository;
 
 @Service
 public class UsuarioServiceImpl implements UserDetailsService {
-
-	@Autowired
-	private PasswordEncoder encoder;
 	
 	@Autowired
 	private UsuarioRepository usuarios;
